@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+/* font-family: 'Montserrat', sans-serif; h11, h2 e tals 
+font-family: 'Open Sans', sans-serif; body */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+} 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 8rem;
+}
+p {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    height: 25rem;
+}
+
+table th, table td{
+    padding: 0.8rem;
+    text-align: left;
+    border: 0.1rem solid var(--primary-color);
+    font-size: 2.2rem
+}
+
+tfoot td, th{
+    background: var(--light-gray);
+}
+
+table caption{
+    text-align: left;
+    font-size: 1.7rem;
+    font-style: italic;
+    margin-bottom: 1.2rem;
+}

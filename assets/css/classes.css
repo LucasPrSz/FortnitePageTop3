@@ -1,0 +1,21 @@
+.section {
+    min-height: 100vh;
+}
+
+.main-bg{
+    color: var(--white-color);
+    background-image: url(/assets/img/pretapadrao.svg.svg);
+    background-size: center;
+    background-position: center center;
+}
+
+.white-img{
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 4.4rem var(--gap);
+}
